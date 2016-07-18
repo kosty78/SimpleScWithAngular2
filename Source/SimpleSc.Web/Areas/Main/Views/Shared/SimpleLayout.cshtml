@@ -1,0 +1,37 @@
+﻿@using System.Web.Optimization
+@using Sitecore.Mvc;
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    @Styles.Render("~/bundles/css/bootstrap")
+    @Styles.Render("~/bundles/css/custom")
+</head>
+<body>
+<div class="container page">
+    @Html.Sitecore().Placeholder("header")
+    <main>
+        @Html.Sitecore().Placeholder("content")
+    </main>
+    @Html.Sitecore().Placeholder("footer")
+</div>
+
+@Scripts.Render("~/bundles/js/jquery")
+@Scripts.Render("~/bundles/js/bootstrap")
+
+
+
+    <script src="static/scripts/vendor/ang/es6-shim.min.js"></script>
+    <script src="static/scripts/vendor/ang/system-polyfills.js"></script>
+
+
+    <script src="static/scripts/vendor/ang/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="static/scripts/vendor/ang/system.src.js"></script>
+    <script src="static/scripts/vendor/ang/rxjs/Rx.js"></script>
+    <script src="static/scripts/vendor/ang/angular2/bundles/angular2.dev.js"></script>
+    <script src="static/scripts/js/setup.systemjs.js"></script>
+</body>
+</html>

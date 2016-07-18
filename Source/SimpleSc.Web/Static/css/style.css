@@ -1,0 +1,23 @@
+﻿body {
+    background: #b6b7bc;
+}
+
+.page {
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+}
+
+table.tradeTable {
+    width: 100%;
+}
+
+.tradeTable th {
+    color:blue;
+}
+
+.tradeTable tr, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   text-align: center;
+}

@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {5DAA91DB-4019-4B87-9C05-7A1506629B42}
+database: master
+path: /sitecore/content/Test Angular2 Page
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: Test Angular2 Page
+master: {00000000-0000-0000-0000-000000000000}
+template: {98EA2DDA-8045-454C-88D3-3079563B53FC}
+templatekey: Standard Page
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 201
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{7270F101-7C2B-4937-A998-955A145DAC0E}" s:id="{19EC67D4-7E49-4071-A1FD-854DF9BB3AAE}" s:ph="content" /></d></r>
+----version----
+language: en
+version: 1
+revision: b86236d6-4d44-4803-b09a-d1c07d1619f9
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160718T143008Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b86236d6-4d44-4803-b09a-d1c07d1619f9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160718T143553Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
